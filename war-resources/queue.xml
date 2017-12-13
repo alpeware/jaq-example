@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<queue-entries>
+  <queue>
+    <name>default</name>
+    <rate>3/s</rate>
+    <bucket-size>3</bucket-size>
+    <max-concurrent-requests>3</max-concurrent-requests>
+  </queue>
+  <queue>
+    <name>pull</name>
+    <mode>pull</mode>
+  </queue>
+</queue-entries>
