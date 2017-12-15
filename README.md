@@ -21,7 +21,7 @@ SDK
 
 Dev
 - lein jaq uberwar
-- lein jaq unpack
+- lein jaq explode
 - lein jaq dev-server
 
 Deploy
