@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?><web-app xmlns="http://java.sun.com/xml/ns/javaee" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd" version="2.5">
 <listener>
-    <listener-class>jaq_test.listener</listener-class>
+    <listener-class>jaq.listener</listener-class>
 </listener>
 <servlet>
-    <servlet-name>jaq-test.core/handler servlet</servlet-name>
-    <servlet-class>jaq_test.servlet</servlet-class>
+    <servlet-name>jaq.runtime/handler servlet</servlet-name>
+    <servlet-class>jaq.servlet</servlet-class>
 </servlet>
 <servlet-mapping>
-    <servlet-name>jaq-test.core/handler servlet</servlet-name>
+    <servlet-name>jaq.runtime/handler servlet</servlet-name>
     <url-pattern>/*</url-pattern>
 </servlet-mapping>
 <servlet>
