@@ -13,9 +13,7 @@
 			<min-pending-latency>10s</min-pending-latency>
 		</automatic-scaling>
     <static-files>
-      <include path="/static/**/*" />
       <include path="/**.html" />
-			<exclude path="/data/**/*" />
     </static-files>
     <system-properties>
       <property name="appengine.api.urlfetch.defaultDeadline" value="60"/>
